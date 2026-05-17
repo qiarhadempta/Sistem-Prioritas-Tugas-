@@ -170,7 +170,10 @@ http://localhost/PrioritasTugas_SPK/auth/login.php
 
 ## 📸 Tampilan Aplikasi
 
-> *Screenshot dapat ditambahkan di sini untuk mempermudah gambaran antarmuka.*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/522e382d-bfea-40e4-bca3-c345e5d30ae3" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6141938a-e430-434c-a381-b9fadfb54917" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0fc53812-1fd4-4cfb-8c90-1e69b8879d94" />
+
 
 ---
 
