@@ -199,3 +199,5 @@ Proyek ini dibuat untuk keperluan akademik. Bebas digunakan dan dikembangkan den
 
 **qiarhadempta**  
 GitHub: [@qiarhadempta](https://github.com/qiarhadempta)
+
+fomo mau go green jg
