@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  # 1. Container Aplikasi Web (PHP + Apache)
+  web:
+    build: .
+    ports:
+      - "8080:80"        # Akses aplikasi di browser via localhost:8080
+    depends_on:
+      - db               # Tunggu database nyala dulu
+
+  # 2. Container Database (MySQL)
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: suki  # Ganti dengan password yang Anda mau
+      MYSQL_DATABASE: spk_prioritas_tugas       # Nama database akan dibuat otomatis
+    ports:
+      - "3306:3306"
+    volumes:
+      # Amankan data MySQL
+      - db_data:/var/lib/mysql
+      # MAGIC TRICK: Masukkan file .sql Anda ke folder auto-init MySQL
+      # Pastikan nama file .sql di bawah ini sesuai dengan nama aslinya!
+      - ./spk_prioritas_tugas.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  db_data:
