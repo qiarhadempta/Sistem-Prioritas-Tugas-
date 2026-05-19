@@ -1,3 +1,4 @@
+izin go green
 # 📋 SPK Prioritas Tugas
 
 Sistem Pendukung Keputusan (SPK) berbasis web untuk membantu pengguna menentukan **urutan prioritas tugas** secara otomatis menggunakan metode **Simple Additive Weighting (SAW)**.
