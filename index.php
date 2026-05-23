@@ -21,11 +21,12 @@ unset($_SESSION['success'], $_SESSION['error']);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard — SPK Prioritas Tugas</title>
     <link rel="stylesheet" href="<?= BASE_URL ?>/css/style.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/css/school-bg.css">
 </head>
 <body>
 
 <nav class="navbar">
-    <div class="navbar-brand">SPK <span>Prioritas Tugas</span></div>
+    <div class="navbar-brand"><span class="brand-edu">Edu</span><span class="brand-flow">Flow</span></div>
     <div class="navbar-user">
         Halo, <strong><?= htmlspecialchars($_SESSION['nama']) ?></strong>
         <a href="<?= BASE_URL ?>/auth/logout.php" class="btn btn-outline btn-sm">Keluar</a>
@@ -111,5 +112,6 @@ unset($_SESSION['success'], $_SESSION['error']);
 </div>
 
 <script src="<?= BASE_URL ?>/js/main.js"></script>
+<script src="<?= BASE_URL ?>/js/school-deco.js"></script>
 </body>
 </html>

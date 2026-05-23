@@ -17,11 +17,12 @@ unset($_SESSION['error'], $_SESSION['success']);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register — SPK Prioritas Tugas</title>
     <link rel="stylesheet" href="<?= BASE_URL ?>/css/style.css">
+    <link rel="stylesheet" href="<?= BASE_URL ?>/css/school-bg.css">
 </head>
 <body class="auth-page">
     <div class="auth-container">
         <div class="auth-box">
-            <h1 class="auth-title">SPK <span>Prioritas Tugas</span></h1>
+            <h1 class="auth-title"><span class="brand-edu">Edu</span><span class="brand-flow">Flow</span></h1>
             <p class="auth-sub">Buat akun baru</p>
 
             <?php if ($error): ?>
@@ -54,5 +55,6 @@ unset($_SESSION['error'], $_SESSION['success']);
             <p class="auth-link">Sudah punya akun? <a href="<?= BASE_URL ?>/auth/login.php">Masuk</a></p>
         </div>
     </div>
+<script src="<?= BASE_URL ?>/js/school-deco.js"></script>
 </body>
 </html>
